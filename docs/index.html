@@ -39,6 +39,10 @@
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> -->
 
+    <!-- VANTA -->
+    <script src="js/p5.min.js"></script>
+    <script src="js/vanta.topology.min.js"></script>
+
 </head>
 
 <body class="bgvanta">
@@ -369,6 +373,20 @@
         </center>
     </div>
 
+<script>
+    VANTA.TOPOLOGY({
+        el: ".bgvanta",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x2e00ff,
+        backgroundColor: 0x0
+    })
+    </script>
 
 
 
@@ -491,13 +509,14 @@
 
     </div>
 
+    
+    
+        <!-- button codepen -->
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
 
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/vue.min.js"></script>
-
-    <!-- button codepen -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> -->
 
     <!-- AOS -->
     <script src="aos-master/dist/aos.js"></script>
@@ -505,24 +524,21 @@
     AOS.init();
     </script>
 
-    <!-- VANTA -->
-    <script src="js/p5.min.js"></script>
-    <script src="js/vanta.topology.min.js"></script>
     <script>
-    VANTA.TOPOLOGY({
-        el: ".bgvanta",
-        mouseControls: true,
-        touchControls: true,
-        gyroControls: false,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x2e00ff,
-        backgroundColor: 0x0
-    })
-    </script>
-
+        VANTA.TOPOLOGY({
+            el: ".bgvanta",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x2e00ff,
+            backgroundColor: 0x0
+        })
+        </script>
+    
 
 
 
