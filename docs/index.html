@@ -50,23 +50,37 @@
 
         <div id="loader-wrapper">
             <div id="loader"></div>
-            
+
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
-            
-          </div>
+
+        </div>
 
         <!-- Header -->
 
-        <nav id="navbar-section" class="navbar navbar-default navbar-static-top
-            navbar-sticky" role="navigation">
-            <div class="container">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-light bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand navbar-fixed" href="index.html"><img
+                                src="assets/img/jackdeeper_img/logo.png"
+                                width="140"></a>
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </div> -->
+       
 
+        <nav id="navbar-section" class="navbar navbar-default">
+            <div class="container">
+                
                 <div class="navbar-header nav-responsive">
                     <button type="button" class="navbar-toggle"
                         data-toggle="collapse"
                         data-target=".navbar-responsive-collapse">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -76,22 +90,73 @@
 
                 <div id="navbar-spy" class="collapse navbar-collapse
                     navbar-responsive-collapse">
-                    <a class="navbar-brand wow" href="index.html"><img
+                
+                        <a class="navbar-brand navbar-fixed" href="index.html"><img
                             src="assets/img/jackdeeper_img/logo.png"
-                            width="140"></a>
+                            width="140">
+                        </a>
+                    
 
                     <ul class="nav navbar-nav pull-right">
                         <li>
-                            <a href="index.html">Home</a>
+                            <center>
+                                <a href="index.html">
+                                    <div class="button-container button-slide-vertical">
+                                        <div class="slider-vertical">
+                                            <div class="button">
+                                                <i class="fa front">HOME</i>
+                                                <i class="back"><img src="./assets/img/jackdeeper_img/danger.jpg"
+                                                    width="80" height="30"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </center>
                         </li>
                         <li>
-                            <a href="index.html">About</a>
+                            <center>
+                                <a href="./errors/404.html">
+                                    <div class="button-container button-slide-vertical">
+                                        <div class="slider-vertical">
+                                            <div class="button">
+                                                <i class="fa front">ABOUT</i>
+                                                <i class="back"><img src="./assets/img/jackdeeper_img/danger.jpg"
+                                                    width="80" height="30"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </center>
                         </li>
                         <li>
-                            <a href="index.html">Contact</a>
+                            <center>
+                                <a href="./errors/404.html">
+                                    <div class="button-container button-slide-vertical">
+                                        <div class="slider-vertical">
+                                            <div class="button">
+                                                <i class="fa front">CONTACT</i>
+                                                <i class="back"><img src="./assets/img/jackdeeper_img/danger.jpg"
+                                                    width="80" height="30"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </center>
                         </li>
                         <li>
-                            <a href="index.html"> </a>
+                            <center>
+                                <a href="./errors/404.html">
+                                    <div class="button-container button-slide-vertical">
+                                        <div class="slider-vertical">
+                                            <div class="button">
+                                                <i class="fa front">BLOG</i>
+                                                <i class="back"><img src="./assets/img/jackdeeper_img/danger.jpg"
+                                                    width="80" height="30"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </center>
                         </li>
                         <li>
                             <a href="index.html"><span> </span></a>
@@ -102,6 +167,7 @@
         </nav>
 
         <!-- End Header -->
+        
 
 
         <div class="container m-5" data-aos="zoom-in">
@@ -117,7 +183,7 @@
                         </span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I’m not lazy.
                         <br>&nbsp;&nbsp;&nbsp;&nbsp; I’m
                         just
-                        naturally a very relaxed person.</h1>
+                        naturally a very relaxed <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;person.</h1>
                     <br>
                     <br>
 
@@ -182,13 +248,13 @@
                                                     <i class="fab fa
                                                         fa-facebook"></i>
                                                 </a></li>
-                                            <li><a href="#">
+                                            <li><a href="https://www.instagram.com/tamcnattawat/">
                                                     <i class="fa fa-instagram"></i>
                                                 </a></li>
-                                            <li><a href="#">
+                                            <li><a href="https://github.com/Jackdeeper">
                                                     <i class="fa fa-github"></i>
                                                 </a></li>
-                                            <li><a href="#">
+                                            <li><a href="https://mail.google.com">
                                                     <i class="fa fa-envelope"></i>
                                                 </a></li>
                                         </ul>
@@ -564,8 +630,8 @@
         <script src="js/vue.min.js"></script>
 
         <!-- loader -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <!-- AOS -->
         <script src="aos-master/dist/aos.js"></script>
         <script>
@@ -590,16 +656,16 @@
     })
     </script>
 
-
+    
         <!-- loader -->
         <script>
         $(document).ready(function () {
             // Fakes the loading setting a timeout
             setTimeout(function () {
               $("body").addClass("loaded");
-            }, 3500);
+            }, 800);
           });
-    </script>
+        </script>
 
 
     </body>
