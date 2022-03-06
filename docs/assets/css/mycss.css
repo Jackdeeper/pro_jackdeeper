@@ -5,7 +5,7 @@
 
 
 .mycolor1{
-  color:rgba(149, 255, 0, 0.905);
+  color:#ffffff;
 }
 .mycolor2{
   color:rgb(255, 0, 0);
@@ -169,7 +169,7 @@
   left: 0;
   right: 0;
   content: '';
-  background-color: #b81212;
+  background-color: #000000;
   opacity: 0.5;
   -webkit-transition: all 0.45s ease;
   transition: all 0.45s ease;
@@ -203,7 +203,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #b81212;
+  background-color: #000000;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
   content: '';
   opacity: 0.5;

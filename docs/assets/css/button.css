@@ -194,13 +194,13 @@
   }
   .button-flip3d-vertical2 .front {
     transform: translateZ(22.5px);
-    background-image: linear-gradient(90deg, rgb(0, 48, 170), #ff0000);
+    background-image: linear-gradient(90deg, #37015f, #0959BF);
   }
   .button-flip3d-vertical2 .back {
     -webkit-transform: rotateX(90deg) rotateZ(180deg) rotateY(180deg) translateZ(22.5px);
     -ms-transform: rotateX(90deg) rotateZ(180deg) rotateY(180deg) translateZ(22.5px);
     transform: rotateX(90deg) rotateZ(180deg) rotateY(180deg) translateZ(22.5px);
-    background-image: linear-gradient(90deg, rgb(0, 48, 170), #ff0000);
+    background-image: linear-gradient(90deg, #37015f, #0959BF);
   }
   .button-flip3d-vertical2:hover .flipper-flip3d-vertical2 {
     transform: rotateX(90deg);

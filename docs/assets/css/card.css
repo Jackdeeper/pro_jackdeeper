@@ -49,7 +49,7 @@
 }
 .c .face.back{
     text-align: center;
-    background-image: url(../img/jackdeeper_img/1217172.webp);
+    background-image: url(../img/jackdeeper_img/wp10294553.webp);
     color:#ffffff;
     transform: perspective(500px) rotateY(180deg);
 }
@@ -77,9 +77,9 @@
     height: 40px;
     border-radius: 50%;
     position: relative;
-    background: transparent;
-    border: 2px solid #c2c1c1;
-    color: #1b0226;
+    background: #000000;
+    border: 2px solid #ffffff;
+    color: #ffffff;
     margin: 5px;
     transition: all 0.3s ease-in-out;
 }
